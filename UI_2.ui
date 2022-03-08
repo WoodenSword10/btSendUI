@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>450</width>
-    <height>420</height>
+    <width>600</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -18,8 +18,8 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>450</width>
-    <height>420</height>
+    <width>600</width>
+    <height>600</height>
    </size>
   </property>
   <property name="font">
@@ -36,23 +36,23 @@
      <x>0</x>
      <y>30</y>
      <width>181</width>
-     <height>321</height>
+     <height>391</height>
     </rect>
    </property>
    <property name="title">
     <string>串口连接</string>
    </property>
-   <widget class="QWidget" name="layoutWidget">
+   <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>20</y>
-      <width>163</width>
-      <height>298</height>
+      <y>22</y>
+      <width>165</width>
+      <height>364</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="0">
         <widget class="QLabel" name="label">
@@ -179,9 +179,34 @@
        <item row="9" column="1">
         <widget class="QComboBox" name="comboBox_10"/>
        </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="label_12">
+         <property name="font">
+          <font>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>串口6：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QComboBox" name="comboBox_11"/>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>波特率6：</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QComboBox" name="comboBox_12"/>
+       </item>
       </layout>
      </item>
-     <item>
+     <item row="1" column="0">
       <widget class="QPushButton" name="pushButton">
        <property name="text">
         <string>连接</string>
@@ -196,8 +221,8 @@
     <rect>
      <x>190</x>
      <y>40</y>
-     <width>256</width>
-     <height>381</height>
+     <width>401</width>
+     <height>551</height>
     </rect>
    </property>
    <property name="minimumSize">
@@ -208,15 +233,15 @@
    </property>
    <property name="maximumSize">
     <size>
-     <width>256</width>
-     <height>381</height>
+     <width>600</width>
+     <height>600</height>
     </size>
    </property>
   </widget>
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>100</x>
+     <x>170</x>
      <y>0</y>
      <width>251</width>
      <height>31</height>
@@ -229,10 +254,10 @@
   <widget class="QGroupBox" name="groupBox_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>360</y>
-     <width>161</width>
-     <height>61</height>
+     <x>0</x>
+     <y>420</y>
+     <width>181</width>
+     <height>171</height>
     </rect>
    </property>
    <property name="title">
@@ -241,13 +266,16 @@
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>30</y>
-      <width>161</width>
-      <height>31</height>
+      <x>10</x>
+      <y>10</y>
+      <width>171</width>
+      <height>161</height>
      </rect>
     </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QComboBox" name="comboBox_13"/>
+     </item>
      <item>
       <widget class="QPushButton" name="pushButton_2">
        <property name="text">
